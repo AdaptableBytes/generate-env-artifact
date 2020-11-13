@@ -1,0 +1,20 @@
+{
+  "name": "generate-env-artifact",
+  "version": "1.0.0",
+  "description": "Render artifacts from template automatically from environment variables",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint '**/*.{js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@adaptablebytes.github.com:AdaptableBytes/generate-env-artifact.git"
+  },
+  "keywords": [],
+  "author": "Adaptable Bytes",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "stache-render": "^1.0.0"
+  }
+}
