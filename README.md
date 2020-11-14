@@ -30,9 +30,7 @@ zone_id = "{{CF_ZONE_ID}}"
 ```
 Then you can invoke `generate-env-artifact` in your pipeline configuration like so:
 ```shell
-npx generate-env-artifact --template=/deploy/targets/cloudflare/wrangler.tmpl --output wrangler.toml
+npx generate-env-artifact --template=/deploy/targets/cloudflare/wrangler.tmpl --output wrangler.toml --prefix=CF_
 ```
-The templated environment variables are CF_ACCOUNT_ID, CF_ROUTE, CF_ZONE_ID.
-
-The prefix is optional, but may help with organization.
+The templated environment variables are CF_ACCOUNT_ID, CF_ROUTE, CF_ZONE_ID
 

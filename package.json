@@ -4,11 +4,12 @@
   "description": "Render artifacts from template automatically from environment variables",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint '**/*.{js,jsx}'"
+    "lint": "npx eslint '**/*.{js,jsx}'",
+    "test": "npx jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git@adaptablebytes.github.com:AdaptableBytes/generate-env-artifact.git"
+    "url": "https://github.com/AdaptableBytes/generate-env-artifact.git"
   },
   "keywords": [],
   "author": "Adaptable Bytes",
@@ -16,5 +17,14 @@
   "dependencies": {
     "command-line-args": "^5.1.1",
     "stache-render": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "jest": "^26.6.3"
   }
 }
