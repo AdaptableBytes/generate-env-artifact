@@ -1,2 +1,5 @@
 __tests__
 .eslintrc.json
+coverage/
+jest.config.js
+.jest/

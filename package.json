@@ -1,8 +1,9 @@
 {
   "name": "generate-env-artifact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render artifacts from template automatically from environment variables",
   "main": "index.js",
+  "bin": "bin/generate-env-artifact.js",
   "scripts": {
     "lint": "npx eslint '**/*.{js,jsx}'",
     "test": "npx jest --coverage"

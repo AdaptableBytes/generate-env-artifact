@@ -4,8 +4,6 @@ const fh = require("./lib/utilities/file-helper");
 const getEnvironmentVariables = require("./lib/get-enviroment-variables");
 const validate = require("./lib/validate-args");
 
-require("dotenv").config();
-
 module.exports = async function generateEnvArtifact() {
   const options = [
     { name: "template", alias: "t", type: String },
